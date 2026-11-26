@@ -1,0 +1,9 @@
+{
+  "daily_allowance": 10,
+  "start": "2026-01-01",
+  "requesters": {
+    "operator": {"daily_cap": 50},
+    "agent-ops": {"daily_cap": 5},
+    "*": {"daily_cap": 1}
+  }
+}

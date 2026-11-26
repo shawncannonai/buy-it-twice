@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buy-it-twice"
+version = "0.1.0"
+description = "A spend gate for humans and AI agents: a purchase clears only when you could pay for it twice."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+buyittwice = "buyittwice.__main__:main"
+
+[tool.setuptools]
+packages = ["buyittwice"]

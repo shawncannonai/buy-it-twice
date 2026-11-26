@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+state/
+buyittwice.json
+*.egg-info/
+build/
+dist/
